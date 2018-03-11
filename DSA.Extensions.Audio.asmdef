@@ -1,0 +1,8 @@
+{
+    "name": "DSA.Extensions.Audio",
+    "references": [
+        "DSA.Extensions.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
