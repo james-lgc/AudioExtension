@@ -8,7 +8,7 @@ namespace DSA.Extensions.Audio
 	//May later be extended to manage in-game music
 	public class AudioManager : ClickableCanvasedManagerBase<AudioCanvas>
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Audio; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Audio; } }
 
 		[SerializeField] protected AudioMixer audioMixer;
 

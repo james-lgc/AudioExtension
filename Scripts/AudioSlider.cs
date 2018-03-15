@@ -8,7 +8,7 @@ namespace DSA.Extensions.Audio
 	//Controls a specific mixer group volume level
 	public class AudioSlider : MonoBehaviour, IDisplayable, IReceivable<string, float>, ISendable<string, float>
 	{
-		public ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Audio; } }
+		public ExtensionEnum Extension { get { return ExtensionEnum.Audio; } }
 
 		//the specific mixer group this slider controls
 		[SerializeField] private string mixerGroupName;

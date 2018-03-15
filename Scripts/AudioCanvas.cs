@@ -7,7 +7,7 @@ namespace DSA.Extensions.Audio
 	//Audio Settings Canvas
 	public class AudioCanvas : ClickableCanvas, ISettable<Func<string, float>, Action<string, float>>
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Audio; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Audio; } }
 
 		//UI Sliders to control volumes
 		[SerializeField] private AudioSlider[] sliders;

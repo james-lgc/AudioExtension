@@ -10,7 +10,7 @@ namespace DSA.Extensions.Audio
 	//eg. Player footstep collection, player jump sound collection, etc
 	public abstract class AudioPlayerTrait : TraitBase, IOrderable, IUseable
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.Audio; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.Audio; } }
 
 		[SerializeField] protected AudioCollection[] collection;
 		protected AudioSource thisSource;
